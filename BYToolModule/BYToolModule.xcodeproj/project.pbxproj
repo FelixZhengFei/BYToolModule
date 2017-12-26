@@ -12,6 +12,21 @@
 		76C4ACAA1FF218630029157D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C4ACA81FF218630029157D /* Main.storyboard */; };
 		76C4ACAC1FF218630029157D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76C4ACAB1FF218630029157D /* Assets.xcassets */; };
 		76C4ACAF1FF218630029157D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76C4ACAD1FF218630029157D /* LaunchScreen.storyboard */; };
+		76C4ACC81FF21A5A0029157D /* Dictionary+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACB71FF21A580029157D /* Dictionary+extension.swift */; };
+		76C4ACC91FF21A5A0029157D /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACB81FF21A580029157D /* UIBarButtonItem+Extensions.swift */; };
+		76C4ACCA1FF21A5A0029157D /* Float+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACB91FF21A590029157D /* Float+extension.swift */; };
+		76C4ACCB1FF21A5A0029157D /* FFLoadXibProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACBA1FF21A590029157D /* FFLoadXibProtocol.swift */; };
+		76C4ACCC1FF21A5A0029157D /* Double+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACBB1FF21A590029157D /* Double+extension.swift */; };
+		76C4ACCD1FF21A5A0029157D /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACBC1FF21A590029157D /* UIView+extension.swift */; };
+		76C4ACCE1FF21A5A0029157D /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACBD1FF21A590029157D /* Date+Extensions.swift */; };
+		76C4ACD01FF21A5A0029157D /* Int+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACBF1FF21A590029157D /* Int+extension.swift */; };
+		76C4ACD11FF21A5A0029157D /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACC01FF21A590029157D /* UIImageView+Extensions.swift */; };
+		76C4ACD21FF21A5A0029157D /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACC11FF21A590029157D /* UISearchBar+Extension.swift */; };
+		76C4ACD31FF21A5A0029157D /* UIAlertController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACC21FF21A590029157D /* UIAlertController+extension.swift */; };
+		76C4ACD41FF21A5A0029157D /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACC31FF21A5A0029157D /* Bundle+Extensions.swift */; };
+		76C4ACD61FF21A5A0029157D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACC51FF21A5A0029157D /* String+Extensions.swift */; };
+		76C4ACD71FF21A5A0029157D /* UIColor+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACC61FF21A5A0029157D /* UIColor+extension.swift */; };
+		76C4ACD81FF21A5A0029157D /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACC71FF21A5A0029157D /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,21 @@
 		76C4ACAB1FF218630029157D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76C4ACAE1FF218630029157D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76C4ACB01FF218630029157D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76C4ACB71FF21A580029157D /* Dictionary+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+extension.swift"; sourceTree = "<group>"; };
+		76C4ACB81FF21A580029157D /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
+		76C4ACB91FF21A590029157D /* Float+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+extension.swift"; sourceTree = "<group>"; };
+		76C4ACBA1FF21A590029157D /* FFLoadXibProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFLoadXibProtocol.swift; sourceTree = "<group>"; };
+		76C4ACBB1FF21A590029157D /* Double+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+extension.swift"; sourceTree = "<group>"; };
+		76C4ACBC1FF21A590029157D /* UIView+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		76C4ACBD1FF21A590029157D /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		76C4ACBF1FF21A590029157D /* Int+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+extension.swift"; sourceTree = "<group>"; };
+		76C4ACC01FF21A590029157D /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		76C4ACC11FF21A590029157D /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
+		76C4ACC21FF21A590029157D /* UIAlertController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+extension.swift"; sourceTree = "<group>"; };
+		76C4ACC31FF21A5A0029157D /* Bundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		76C4ACC51FF21A5A0029157D /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		76C4ACC61FF21A5A0029157D /* UIColor+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extension.swift"; sourceTree = "<group>"; };
+		76C4ACC71FF21A5A0029157D /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +84,45 @@
 		76C4ACA31FF218630029157D /* BYToolModule */ = {
 			isa = PBXGroup;
 			children = (
+				76C4ACB61FF21A220029157D /* extension */,
 				76C4ACA41FF218630029157D /* AppDelegate.swift */,
 				76C4ACA61FF218630029157D /* ViewController.swift */,
 				76C4ACA81FF218630029157D /* Main.storyboard */,
+				76C4ACD91FF21DCC0029157D /* Resources */,
 				76C4ACAB1FF218630029157D /* Assets.xcassets */,
 				76C4ACAD1FF218630029157D /* LaunchScreen.storyboard */,
 				76C4ACB01FF218630029157D /* Info.plist */,
 			);
 			path = BYToolModule;
+			sourceTree = "<group>";
+		};
+		76C4ACB61FF21A220029157D /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				76C4ACC31FF21A5A0029157D /* Bundle+Extensions.swift */,
+				76C4ACBD1FF21A590029157D /* Date+Extensions.swift */,
+				76C4ACB71FF21A580029157D /* Dictionary+extension.swift */,
+				76C4ACBB1FF21A590029157D /* Double+extension.swift */,
+				76C4ACBA1FF21A590029157D /* FFLoadXibProtocol.swift */,
+				76C4ACB91FF21A590029157D /* Float+extension.swift */,
+				76C4ACBF1FF21A590029157D /* Int+extension.swift */,
+				76C4ACC51FF21A5A0029157D /* String+Extensions.swift */,
+				76C4ACC21FF21A590029157D /* UIAlertController+extension.swift */,
+				76C4ACB81FF21A580029157D /* UIBarButtonItem+Extensions.swift */,
+				76C4ACC61FF21A5A0029157D /* UIColor+extension.swift */,
+				76C4ACC71FF21A5A0029157D /* UIImage+Extensions.swift */,
+				76C4ACC01FF21A590029157D /* UIImageView+Extensions.swift */,
+				76C4ACC11FF21A590029157D /* UISearchBar+Extension.swift */,
+				76C4ACBC1FF21A590029157D /* UIView+extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		76C4ACD91FF21DCC0029157D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +197,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C4ACC91FF21A5A0029157D /* UIBarButtonItem+Extensions.swift in Sources */,
+				76C4ACCB1FF21A5A0029157D /* FFLoadXibProtocol.swift in Sources */,
+				76C4ACD71FF21A5A0029157D /* UIColor+extension.swift in Sources */,
+				76C4ACCE1FF21A5A0029157D /* Date+Extensions.swift in Sources */,
+				76C4ACCD1FF21A5A0029157D /* UIView+extension.swift in Sources */,
 				76C4ACA71FF218630029157D /* ViewController.swift in Sources */,
+				76C4ACD41FF21A5A0029157D /* Bundle+Extensions.swift in Sources */,
+				76C4ACD31FF21A5A0029157D /* UIAlertController+extension.swift in Sources */,
+				76C4ACD11FF21A5A0029157D /* UIImageView+Extensions.swift in Sources */,
 				76C4ACA51FF218630029157D /* AppDelegate.swift in Sources */,
+				76C4ACD21FF21A5A0029157D /* UISearchBar+Extension.swift in Sources */,
+				76C4ACD61FF21A5A0029157D /* String+Extensions.swift in Sources */,
+				76C4ACCA1FF21A5A0029157D /* Float+extension.swift in Sources */,
+				76C4ACC81FF21A5A0029157D /* Dictionary+extension.swift in Sources */,
+				76C4ACD81FF21A5A0029157D /* UIImage+Extensions.swift in Sources */,
+				76C4ACCC1FF21A5A0029157D /* Double+extension.swift in Sources */,
+				76C4ACD01FF21A5A0029157D /* Int+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9854286B7Z;
 				INFOPLIST_FILE = BYToolModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BY.BYToolModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9854286B7Z;
 				INFOPLIST_FILE = BYToolModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BY.BYToolModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
