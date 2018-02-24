@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        if ("12609847823".isPhoneNumber()) {
+        if ("16109847823".isPhoneNumber()) {
             print("是")
         } else {
             print("否")
