@@ -33,7 +33,7 @@ extension String {
         phoneString = phoneString.replacingOccurrences(of: " ", with: "")
         phoneString = phoneString.replacingOccurrences(of: "-", with: "")
         phoneString = phoneString.replacingOccurrences(of: "—", with: "")
-        let mobile = "^(13[0-9]|15[0-9]|18[0-9]|17[0-9]|147)\\d{8}$"
+        let mobile = "^(13[0-9]|14[0-9]||15[0-9]|16[0-9]|18[0-9]|17[0-9]|147)\\d{8}$"
         let regexMobile = NSPredicate(format: "SELF MATCHES %@",mobile)
         if regexMobile.evaluate(with: phoneString) == true {
             return true
@@ -243,7 +243,7 @@ extension String {
         return (link, text)
     }
     
-    //获取 IP 地址
+    /**获取 IP 地址*/
     public static func getLocalIPAddressForCurrentWiFi() -> String {
         var address: String?
         // get list of all interfaces on the local machine

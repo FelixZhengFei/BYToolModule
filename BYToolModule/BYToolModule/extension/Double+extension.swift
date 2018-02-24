@@ -11,11 +11,13 @@ import Foundation
 extension Double {
     
     // MARK: - 用法 let myDouble = 1.234567  println(myDouble.format(".2") .2代表留2位小数点
+    /**用法 let myDouble = 1.234567  println(myDouble.format(".2") .2代表留2位小数点*/
     public func format(_ f: String) -> String {
         return NSString(format: "%\(f)f" as NSString, self) as String
     }
     
     //MARK:金额格式化 12.00
+    /**金额格式化 12.00*/
     public func toRMBBalanceFormat() -> String {
         let nf = NumberFormatter()
         nf.numberStyle = .currency
@@ -32,6 +34,7 @@ extension Double {
     }
     
     //MARK:金额格式化
+    /**金额格式化*/
     public func toIntFormat() -> String {
         return String(format: "%.0f",self)
 
@@ -39,6 +42,7 @@ extension Double {
     
     
     //MARK:大数字格式化
+    /**大数字格式化*/
     public func toBigString(decimal: Int = 2) -> String {
         if self < 10000 {
             return String(self)
