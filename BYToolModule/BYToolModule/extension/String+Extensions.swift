@@ -33,7 +33,7 @@ extension String {
         phoneString = phoneString.replacingOccurrences(of: " ", with: "")
         phoneString = phoneString.replacingOccurrences(of: "-", with: "")
         phoneString = phoneString.replacingOccurrences(of: "—", with: "")
-        let mobile = "^(13[0-9]|14[0-9]||15[0-9]|16[0-9]|18[0-9]|17[0-9]|147)\\d{8}$"
+        let mobile = "^(10[0-9]|11[0-9]|12[0-9]|13[0-9]|14[0-9]|15[0-9]|16[0-9]|18[0-9]|19[0-9]|17[0-9]|147)\\d{8}$"
         let regexMobile = NSPredicate(format: "SELF MATCHES %@",mobile)
         if regexMobile.evaluate(with: phoneString) == true {
             return true
