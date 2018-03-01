@@ -48,9 +48,9 @@ class PPAddressBookHandle {
             contactStore.requestAccess(for: CNEntityType.contacts, completionHandler: { (granted, error) in
                 
                 if granted {
-                    success() ; FFPrint("授权成功")
+                    success() ;
                 } else {
-                    FFPrint("授权失败")
+
                 }
             })
             
@@ -64,9 +64,8 @@ class PPAddressBookHandle {
                 // 3.创建通讯录进行授权
                 ABAddressBookRequestAccessWithCompletion(addressBook, { (granted, error) in
                     if granted {
-                        success() ; FFPrint("授权成功")
+                        success() ;
                     }else {
-                        FFPrint("授权失败")
                     }
                 })
                 
@@ -172,8 +171,7 @@ class PPAddressBookHandle {
             })
             
         }
-        catch let error as NSError {
-            FFPrint(error.localizedDescription)
+        catch _ as NSError {
         }
         // 3.1遍历联系人
         for contact in contacts {

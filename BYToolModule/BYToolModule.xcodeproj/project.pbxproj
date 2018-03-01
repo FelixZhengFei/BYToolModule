@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7622D3662045400D005F045F /* FFOnePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D3652045400D005F045F /* FFOnePickerView.swift */; };
 		7622D37520478703005F045F /* FFAppDevicePulgin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37420478703005F045F /* FFAppDevicePulgin.swift */; };
-		7622D37720478727005F045F /* FFSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37620478727005F045F /* FFSliderView.swift */; };
 		7622D37C20478777005F045F /* PPAddressBookHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37920478777005F045F /* PPAddressBookHandle.swift */; };
 		7622D37D20478777005F045F /* PPGetAddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37A20478777005F045F /* PPGetAddressBook.swift */; };
 		7622D37E20478777005F045F /* PPPersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37B20478777005F045F /* PPPersonModel.swift */; };
@@ -36,9 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7622D3652045400D005F045F /* FFOnePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFOnePickerView.swift; sourceTree = "<group>"; };
 		7622D37420478703005F045F /* FFAppDevicePulgin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFAppDevicePulgin.swift; sourceTree = "<group>"; };
-		7622D37620478727005F045F /* FFSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFSliderView.swift; sourceTree = "<group>"; };
 		7622D37920478777005F045F /* PPAddressBookHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPAddressBookHandle.swift; sourceTree = "<group>"; };
 		7622D37A20478777005F045F /* PPGetAddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPGetAddressBook.swift; sourceTree = "<group>"; };
 		7622D37B20478777005F045F /* PPPersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPPersonModel.swift; sourceTree = "<group>"; };
@@ -137,9 +133,7 @@
 				76C4ACC01FF21A590029157D /* UIImageView+Extensions.swift */,
 				76C4ACC11FF21A590029157D /* UISearchBar+Extension.swift */,
 				76C4ACBC1FF21A590029157D /* UIView+extension.swift */,
-				7622D3652045400D005F045F /* FFOnePickerView.swift */,
 				7622D37420478703005F045F /* FFAppDevicePulgin.swift */,
-				7622D37620478727005F045F /* FFSliderView.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -226,7 +220,6 @@
 				76C4ACC91FF21A5A0029157D /* UIBarButtonItem+Extensions.swift in Sources */,
 				76C4ACCB1FF21A5A0029157D /* FFLoadXibProtocol.swift in Sources */,
 				76C4ACD71FF21A5A0029157D /* UIColor+extension.swift in Sources */,
-				7622D3662045400D005F045F /* FFOnePickerView.swift in Sources */,
 				76C4ACCE1FF21A5A0029157D /* Date+Extensions.swift in Sources */,
 				76C4ACCD1FF21A5A0029157D /* UIView+extension.swift in Sources */,
 				76C4ACA71FF218630029157D /* ViewController.swift in Sources */,
@@ -235,7 +228,6 @@
 				76C4ACD31FF21A5A0029157D /* UIAlertController+extension.swift in Sources */,
 				7622D37D20478777005F045F /* PPGetAddressBook.swift in Sources */,
 				76C4ACD11FF21A5A0029157D /* UIImageView+Extensions.swift in Sources */,
-				7622D37720478727005F045F /* FFSliderView.swift in Sources */,
 				76C4ACA51FF218630029157D /* AppDelegate.swift in Sources */,
 				7622D37E20478777005F045F /* PPPersonModel.swift in Sources */,
 				76C4ACD21FF21A5A0029157D /* UISearchBar+Extension.swift in Sources */,

@@ -32,7 +32,7 @@ public final class FFAppDevicePulgin: NSObject {
     // MARK: - 导航栏高度和屏幕宽高度
     //状态栏高度
     static public let statusBarHeight: CGFloat = {
-        if SCREEN_H == 812 {
+        if UIScreen.main.bounds.size.height == 812 {
             return 44
         } else {
             return 20
@@ -41,7 +41,7 @@ public final class FFAppDevicePulgin: NSObject {
     
     //iphoneX差
     static public let statusBarOffset: CGFloat = {
-        if SCREEN_H == 812 {
+        if UIScreen.main.bounds.size.height == 812 {
             return 22
         } else {
             return 0
@@ -56,7 +56,7 @@ public final class FFAppDevicePulgin: NSObject {
     // MARK: - 导航栏高度和屏幕宽高度
     //状态栏高度
     static public let homeIndicatorHeight: CGFloat = {
-        if SCREEN_H == 812 {
+        if UIScreen.main.bounds.size.height == 812 {
             return 34
         } else {
             return 0
@@ -70,7 +70,7 @@ public final class FFAppDevicePulgin: NSObject {
     
     //标准的线条高度
     static public let standardLineHeight: CGFloat = {
-        if SCREEN_H == 812 {
+        if UIScreen.main.bounds.size.height == 812 {
             return 2/UIScreen.main.scale
         } else {
             return 1.5/UIScreen.main.scale
