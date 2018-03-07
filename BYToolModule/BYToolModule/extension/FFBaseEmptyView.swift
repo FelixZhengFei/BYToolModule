@@ -15,21 +15,29 @@ open class FFBaseEmptyView: UIView {
         view.backgroundColor = UIColor.clear
         return view
     }
-
-    open class func mix(view: UIView,_ frame:CGRect) -> FFBaseEmptyView {
+    
+    open class func mix(view: UIView) -> FFBaseEmptyView {
         let backView = backgroundView
         backView.addSubview(view)
-        view.frame = frame
         view.translatesAutoresizingMaskIntoConstraints = false
+        let lay1 = NSLayoutConstraint(item: view, attribute: .centerX, relatedBy: .equal, toItem: view.superview, attribute: .centerX, multiplier: 1, constant: 0)
+        let lay2 = NSLayoutConstraint(item: view, attribute: .centerY, relatedBy: .equal, toItem: view.superview, attribute: .centerY, multiplier: 1, constant: 0)
+        let lay3 = NSLayoutConstraint(item: view, attribute: .width, relatedBy: .equal, toItem: view.superview, attribute: .width, multiplier: 1, constant: 0)
+        backView.addConstraints([lay1,lay2,lay3])
         return backView
     }
     
     open class func mix(view: UIView,_ y_Coord:CGFloat) -> FFBaseEmptyView {
         let backView = backgroundView
         backView.addSubview(view)
-        view.center.x = UIScreen.main.bounds.size.width / 2
-        view.frame.origin.y = y_Coord
         view.translatesAutoresizingMaskIntoConstraints = false
+        
+        let lay1 = NSLayoutConstraint(item: view, attribute: .centerX, relatedBy: .equal, toItem: view.superview, attribute: .centerX, multiplier: 1, constant: 0)
+        let lay2 = NSLayoutConstraint(item: view, attribute: .top, relatedBy: .equal, toItem: view.superview, attribute: .top, multiplier: 1, constant: y_Coord)
+        
+        let width:NSLayoutConstraint = NSLayoutConstraint(item: view, attribute:.width, relatedBy:.equal, toItem:nil, attribute:.notAnAttribute, multiplier:0.0, constant:view.frame.width)
+        backView.addConstraints([lay1,lay2,width])
+        
         return backView
     }
 }
