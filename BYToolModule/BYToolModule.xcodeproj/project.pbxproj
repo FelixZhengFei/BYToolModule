@@ -87,16 +87,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7622D3782047876F005F045F /* 联系人选择 */ = {
-			isa = PBXGroup;
-			children = (
-				7622D37920478777005F045F /* PPAddressBookHandle.swift */,
-				7622D37A20478777005F045F /* PPGetAddressBook.swift */,
-				7622D37B20478777005F045F /* PPPersonModel.swift */,
-			);
-			path = "联系人选择";
-			sourceTree = "<group>";
-		};
 		76C4AC981FF218630029157D = {
 			isa = PBXGroup;
 			children = (
@@ -131,8 +121,16 @@
 		76C4ACB61FF21A220029157D /* extension */ = {
 			isa = PBXGroup;
 			children = (
-				76E1347F204F898E00A5E4CD /* Table EmptyView */,
-				7622D3782047876F005F045F /* 联系人选择 */,
+				76E13482204F89AF00A5E4CD /* Empty+UICollectionView.swift */,
+				76E13481204F89AF00A5E4CD /* Empty+UIScrollView.swift */,
+				76E13484204F89AF00A5E4CD /* Empty+UITableView.swift */,
+				76E13485204F89AF00A5E4CD /* EmptyPage.swift */,
+				76E13480204F89AF00A5E4CD /* EmptyView+UIScrollView.swift */,
+				76E13486204F89B000A5E4CD /* FFBaseEmptyView.swift */,
+				76E13483204F89AF00A5E4CD /* RunTime.swift */,
+				7622D37920478777005F045F /* PPAddressBookHandle.swift */,
+				7622D37A20478777005F045F /* PPGetAddressBook.swift */,
+				7622D37B20478777005F045F /* PPPersonModel.swift */,
 				76C4ACC31FF21A5A0029157D /* Bundle+Extensions.swift */,
 				76C4ACBD1FF21A590029157D /* Date+Extensions.swift */,
 				76C4ACB71FF21A580029157D /* Dictionary+extension.swift */,
@@ -158,20 +156,6 @@
 			children = (
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		76E1347F204F898E00A5E4CD /* Table EmptyView */ = {
-			isa = PBXGroup;
-			children = (
-				76E13482204F89AF00A5E4CD /* Empty+UICollectionView.swift */,
-				76E13481204F89AF00A5E4CD /* Empty+UIScrollView.swift */,
-				76E13484204F89AF00A5E4CD /* Empty+UITableView.swift */,
-				76E13485204F89AF00A5E4CD /* EmptyPage.swift */,
-				76E13480204F89AF00A5E4CD /* EmptyView+UIScrollView.swift */,
-				76E13486204F89B000A5E4CD /* FFBaseEmptyView.swift */,
-				76E13483204F89AF00A5E4CD /* RunTime.swift */,
-			);
-			path = "Table EmptyView";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
