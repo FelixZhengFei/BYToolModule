@@ -51,7 +51,7 @@ extension Date {
         // 1. 判断日期是否是今天
         if calendar.isDateInToday(self) {
             
-            let delta = -Int(self.timeIntervalSinceNow)
+            let delta = -Int64(self.timeIntervalSinceNow)
             
             if delta < 60 {
                 return "刚刚"
