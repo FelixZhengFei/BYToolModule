@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension CGFloat {
-  public  func toFloat() -> Float {
+    public  func toFloat() -> Float {
         return Float(self)
     }
 }
@@ -46,5 +46,11 @@ extension Float {
         } else {
             return String(format: "%.\(decimal)f", self/(10000*10000)) + "亿"
         }
+    }
+    
+    /**屏幕适配*/
+    public func autoFit(_ float:Float)->Float {
+        let min = Float(UIScreen.main.bounds.height < UIScreen.main.bounds.width ? UIScreen.main.bounds.height :UIScreen.main.bounds.width)
+        return min / 375 * Float(float)
     }
 }

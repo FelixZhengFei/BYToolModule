@@ -12,7 +12,7 @@ open class FFBaseEmptyView: UIView {
     
     open class var backgroundView: FFBaseEmptyView {
         let view = FFBaseEmptyView(frame: UIScreen.main.bounds)
-        view.backgroundColor = UIColor.clear
+        view.backgroundColor = UIColor.white
         return view
     }
     

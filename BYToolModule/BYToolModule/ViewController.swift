@@ -13,6 +13,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let tempView = UIView()
+        tempView.frame = CGRect(x: 0, y: 0, width: 100, height: 100).autoFit()
+        tempView.backgroundColor = UIColor.red
+        print("111==\(tempView.frame)")
+        print("3232==\(100.autoFit())")
+
+        self.view.addSubview(tempView)
     }
 
     override func didReceiveMemoryWarning() {
