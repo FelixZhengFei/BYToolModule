@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BYToolModule/extension/Double+extension.swift"
-            timestampString = "545195017.038191"
+            timestampString = "545206069.6038949"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "autoFit()"
             landmarkType = "7">
          </BreakpointContent>

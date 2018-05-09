@@ -116,7 +116,6 @@ public final class FFAppDevicePulgin: NSObject {
         case "iPhone8,4":                               return CommonPhoneDeviceModel.iPhoneSE
         case "iPhone9,1", "iPhone9,3":                  return CommonPhoneDeviceModel.iPhone7
         case "iPhone9,2", "iPhone9,4":                  return CommonPhoneDeviceModel.iPhone7Plus
-        case "iPhone9,1", "iPhone9,3":                  return CommonPhoneDeviceModel.iPhone7
         case "iPhone10,1", "iPhone10,4":                return CommonPhoneDeviceModel.iPhone8
         case "iPhone10,2", "iPhone10,5":                return CommonPhoneDeviceModel.iPhone8Plus
         case "iPhone10,3", "iPhone10,6":                return CommonPhoneDeviceModel.iPhoneX

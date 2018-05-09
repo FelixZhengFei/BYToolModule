@@ -291,15 +291,11 @@ extension String {
     }
     
     /*检查是否越狱  0:没 1:有*/
-    public static func getDeviceHasRoot()->Int  {
-        guard let path = URL(string:"cydia://package/com.example.package") else {
-            return 0
-        }
-        let isJailBroken = UIApplication.shared.canOpenURL(path)
-        if isJailBroken {
+    public static func getDeviceHasRoot()->Int {
+        let isExit = FileManager.default.fileExists(atPath: "User/Applications/")
+        if isExit {
             return 1
-        } else {
-            return 0
         }
+        return 0
     }
 }

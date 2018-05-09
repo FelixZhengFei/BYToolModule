@@ -57,6 +57,12 @@ extension Double {
         let min = UIScreen.main.bounds.height < UIScreen.main.bounds.width ? UIScreen.main.bounds.height :UIScreen.main.bounds.width
         return Double(min) / 375 * self
     }
+    
+    /**屏幕适配*/
+    public func autoFitFloat()->CGFloat {
+        let min = UIScreen.main.bounds.height < UIScreen.main.bounds.width ? UIScreen.main.bounds.height :UIScreen.main.bounds.width
+        return CGFloat(Double(min) / 375.0 * self)
+    }
 }
 
 extension CGRect {
