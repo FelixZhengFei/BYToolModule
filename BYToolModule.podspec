@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BYToolModule"
-  s.version      = "1.2.2"
+  s.version      = "1.2.3"
   s.summary      = "my BYToolModule"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
 
-  s.source       = { :git => "https://github.com/FelixZhengFei/BYToolModule.git", :tag => "1.2.2" }
+  s.source       = { :git => "https://github.com/FelixZhengFei/BYToolModule.git", :tag => "1.2.3" }
 
   s.subspec 'extension' do |ss|
     ss.source_files = "BYToolModule/BYToolModule/extension/*.{swift}"

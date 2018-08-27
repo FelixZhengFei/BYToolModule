@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		761DE14D2089CD7E00CB7EBD /* Lanch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 761DE14C2089CD7E00CB7EBD /* Lanch.xib */; };
 		7622D37520478703005F045F /* FFAppDevicePulgin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37420478703005F045F /* FFAppDevicePulgin.swift */; };
-		7622D37C20478777005F045F /* PPAddressBookHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37920478777005F045F /* PPAddressBookHandle.swift */; };
-		7622D37D20478777005F045F /* PPGetAddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37A20478777005F045F /* PPGetAddressBook.swift */; };
-		7622D37E20478777005F045F /* PPPersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7622D37B20478777005F045F /* PPPersonModel.swift */; };
 		768DFB292089CB480003B33C /* NSMutableAttributedString+exts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DFB272089CB470003B33C /* NSMutableAttributedString+exts.swift */; };
 		768DFB2A2089CB480003B33C /* FFAttrTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DFB282089CB470003B33C /* FFAttrTextView.swift */; };
 		76C4ACA51FF218630029157D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4ACA41FF218630029157D /* AppDelegate.swift */; };
@@ -45,9 +42,6 @@
 /* Begin PBXFileReference section */
 		761DE14C2089CD7E00CB7EBD /* Lanch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Lanch.xib; sourceTree = "<group>"; };
 		7622D37420478703005F045F /* FFAppDevicePulgin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFAppDevicePulgin.swift; sourceTree = "<group>"; };
-		7622D37920478777005F045F /* PPAddressBookHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPAddressBookHandle.swift; sourceTree = "<group>"; };
-		7622D37A20478777005F045F /* PPGetAddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPGetAddressBook.swift; sourceTree = "<group>"; };
-		7622D37B20478777005F045F /* PPPersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PPPersonModel.swift; sourceTree = "<group>"; };
 		768DFB272089CB470003B33C /* NSMutableAttributedString+exts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+exts.swift"; sourceTree = "<group>"; };
 		768DFB282089CB470003B33C /* FFAttrTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFAttrTextView.swift; sourceTree = "<group>"; };
 		76C4ACA11FF218630029157D /* BYToolModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYToolModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,9 +126,6 @@
 				76E13480204F89AF00A5E4CD /* EmptyView+UIScrollView.swift */,
 				76E13486204F89B000A5E4CD /* FFBaseEmptyView.swift */,
 				76E13483204F89AF00A5E4CD /* RunTime.swift */,
-				7622D37920478777005F045F /* PPAddressBookHandle.swift */,
-				7622D37A20478777005F045F /* PPGetAddressBook.swift */,
-				7622D37B20478777005F045F /* PPPersonModel.swift */,
 				76C4ACC31FF21A5A0029157D /* Bundle+Extensions.swift */,
 				76C4ACBD1FF21A590029157D /* Date+Extensions.swift */,
 				76C4ACB71FF21A580029157D /* Dictionary+extension.swift */,
@@ -251,10 +242,8 @@
 				7622D37520478703005F045F /* FFAppDevicePulgin.swift in Sources */,
 				76C4ACD31FF21A5A0029157D /* UIAlertController+extension.swift in Sources */,
 				76E1348B204F89B000A5E4CD /* Empty+UITableView.swift in Sources */,
-				7622D37D20478777005F045F /* PPGetAddressBook.swift in Sources */,
 				76C4ACD11FF21A5A0029157D /* UIImageView+Extensions.swift in Sources */,
 				76C4ACA51FF218630029157D /* AppDelegate.swift in Sources */,
-				7622D37E20478777005F045F /* PPPersonModel.swift in Sources */,
 				768DFB292089CB480003B33C /* NSMutableAttributedString+exts.swift in Sources */,
 				76C4ACD21FF21A5A0029157D /* UISearchBar+Extension.swift in Sources */,
 				76C4ACD61FF21A5A0029157D /* String+Extensions.swift in Sources */,
@@ -265,7 +254,6 @@
 				76C4ACD01FF21A5A0029157D /* Int+extension.swift in Sources */,
 				76E13489204F89B000A5E4CD /* Empty+UICollectionView.swift in Sources */,
 				76E1348A204F89B000A5E4CD /* RunTime.swift in Sources */,
-				7622D37C20478777005F045F /* PPAddressBookHandle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
