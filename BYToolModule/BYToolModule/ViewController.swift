@@ -29,7 +29,7 @@ class ViewController: UIViewController {
             .attribute()
             .fontSize(18)
             .color(UIColor.blue)
-            .ff_underLine(.styleSingle)
+            .ff_underLine(NSUnderlineStyle.single)
             .ff_underLineColor(UIColor.black)
             +
              "2000"

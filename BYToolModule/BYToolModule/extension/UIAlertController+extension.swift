@@ -32,24 +32,24 @@ extension UIAlertController {
     @discardableResult
     static public func present(_ vc: UIViewController,title: String,message: String,ok_name: String?,cancel_name: String?,style: CommonUIAlertControllerStyle, OK_Callback: (() -> Void)?, Cancel_Callback: (() -> Void)?) -> UIAlertController {
         
-        var Method:UIAlertControllerStyle
+        var Method:UIAlertController.Style
         switch (style) {
-        case .alert: Method = UIAlertControllerStyle.alert;
+        case .alert: Method = UIAlertController.Style.alert;
             break
-        case .actionSheet: Method = UIAlertControllerStyle.actionSheet;
+        case .actionSheet: Method = UIAlertController.Style.actionSheet;
             break
         }
         
         let alertController = UIAlertController(title: title, message: message, preferredStyle: Method)
         
         if(ok_name != nil) {
-            let okAction = UIAlertAction(title: ok_name, style: UIAlertActionStyle.default) { (UIAlertAction) in
+            let okAction = UIAlertAction(title: ok_name, style: UIAlertAction.Style.default) { (UIAlertAction) in
                 OK_Callback!()
             }
             alertController.addAction(okAction)
         }
         if(cancel_name != nil) {
-            let cancelAction = UIAlertAction(title: cancel_name, style: UIAlertActionStyle.cancel){ (UIAlertAction) in
+            let cancelAction = UIAlertAction(title: cancel_name, style: UIAlertAction.Style.cancel){ (UIAlertAction) in
                 Cancel_Callback!()
             }
             alertController.addAction(cancelAction)

@@ -20,28 +20,28 @@ import UIKit
     emptyView?.frame = bounds
   }
 
-  @objc func table_emptyInsertRows(at indexPaths: [IndexPath], with animation: UITableViewRowAnimation){
+  @objc func table_emptyInsertRows(at indexPaths: [IndexPath], with animation: UITableView.RowAnimation){
     setEmptyView {[weak self] in
       guard let base = self else { return }
       base.table_emptyInsertRows(at: indexPaths, with: animation)
     }
   }
 
-  @objc func table_emptyDeleteRows(at indexPaths: [IndexPath], with animation: UITableViewRowAnimation){
+  @objc func table_emptyDeleteRows(at indexPaths: [IndexPath], with animation: UITableView.RowAnimation){
     setEmptyView {[weak self] in
       guard let base = self else { return }
       base.table_emptyDeleteRows(at: indexPaths, with: animation)
     }
   }
 
-  @objc func table_emptyInsertSections(_ sections: IndexSet, with animation: UITableViewRowAnimation){
+  @objc func table_emptyInsertSections(_ sections: IndexSet, with animation: UITableView.RowAnimation){
     setEmptyView {[weak self] in
       guard let base = self else { return }
       base.table_emptyInsertSections(sections, with: animation)
     }
   }
 
-  @objc func table_emptyDeleteSections(_ sections: IndexSet, with animation: UITableViewRowAnimation){
+  @objc func table_emptyDeleteSections(_ sections: IndexSet, with animation: UITableView.RowAnimation){
     setEmptyView {[weak self] in
       guard let base = self else { return }
       base.table_emptyDeleteSections(sections, with: animation)

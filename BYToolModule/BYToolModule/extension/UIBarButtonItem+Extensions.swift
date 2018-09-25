@@ -30,7 +30,7 @@ extension UIBarButtonItem {
         if isBack {
             let imageName = "Back-icon_press"
             
-            btn.setImage(UIImage(named: imageName), for: UIControlState(rawValue: 0))
+            btn.setImage(UIImage(named: imageName), for: UIControl.State(rawValue: 0))
             btn.setImage(UIImage(named: "Back-icon"), for: .highlighted)
             
             btn.sizeToFit()
@@ -45,7 +45,7 @@ extension UIBarButtonItem {
    public convenience init(imageName: String, target: AnyObject?, action: Selector) {
         let btn : UIButton = UIButton(type: .custom)
         
-            btn.setImage(UIImage(named: imageName), for: UIControlState(rawValue: 0))
+            btn.setImage(UIImage(named: imageName), for: UIControl.State(rawValue: 0))
             btn.setImage(UIImage(named: imageName), for: .highlighted)
             btn.sizeToFit()
         btn.addTarget(target, action: action, for: .touchUpInside)

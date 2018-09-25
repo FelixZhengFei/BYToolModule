@@ -26,7 +26,7 @@ extension UIView {
     
     // MARK: -获取控件相对widow的Y
     /**获取控件相对widow的Y*/
-   open static func getControlY_Coord_ToWindow(superView:UIView,childerViewFrame:CGRect) ->CGFloat {
+    public static func getControlY_Coord_ToWindow(superView:UIView,childerViewFrame:CGRect) ->CGFloat {
         let frame = superView.convert(childerViewFrame, to: nil)
         return frame.origin.y
     }

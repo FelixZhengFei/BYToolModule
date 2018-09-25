@@ -85,9 +85,9 @@ extension UIImage {
                                  waterMarkTextFont:UIFont = UIFont.systemFont(ofSize: 20),
                                  backgroundColor:UIColor = UIColor.clear) -> UIImage{
         
-        let textAttributes = [NSAttributedStringKey.foregroundColor:waterMarkTextColor,
-                              NSAttributedStringKey.font:waterMarkTextFont,
-                              NSAttributedStringKey.backgroundColor:backgroundColor]
+        let textAttributes = [NSAttributedString.Key.foregroundColor:waterMarkTextColor,
+                              NSAttributedString.Key.font:waterMarkTextFont,
+                              NSAttributedString.Key.backgroundColor:backgroundColor]
         let textSize = NSString(string: waterMarkText).size(withAttributes: textAttributes)
         var textFrame = CGRect(x: 0, y: 0, width: textSize.width, height: textSize.height)
         
