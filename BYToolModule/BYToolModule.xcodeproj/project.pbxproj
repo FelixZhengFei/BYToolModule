@@ -37,6 +37,7 @@
 		76E1348B204F89B000A5E4CD /* Empty+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E13484204F89AF00A5E4CD /* Empty+UITableView.swift */; };
 		76E1348C204F89B000A5E4CD /* EmptyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E13485204F89AF00A5E4CD /* EmptyPage.swift */; };
 		76E1348D204F89B000A5E4CD /* FFBaseEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E13486204F89B000A5E4CD /* FFBaseEmptyView.swift */; };
+		DC561C6924EEA35900B35435 /* FFConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC561C6824EEA35900B35435 /* FFConfigData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		76E13484204F89AF00A5E4CD /* Empty+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Empty+UITableView.swift"; sourceTree = "<group>"; };
 		76E13485204F89AF00A5E4CD /* EmptyPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyPage.swift; sourceTree = "<group>"; };
 		76E13486204F89B000A5E4CD /* FFBaseEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFBaseEmptyView.swift; sourceTree = "<group>"; };
+		DC561C6824EEA35900B35435 /* FFConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFConfigData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				7622D37420478703005F045F /* FFAppDevicePulgin.swift */,
 				768DFB282089CB470003B33C /* FFAttrTextView.swift */,
 				768DFB272089CB470003B33C /* NSMutableAttributedString+exts.swift */,
+				DC561C6824EEA35900B35435 /* FFConfigData.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76C4ACC91FF21A5A0029157D /* UIBarButtonItem+Extensions.swift in Sources */,
+				DC561C6924EEA35900B35435 /* FFConfigData.swift in Sources */,
 				76E1348D204F89B000A5E4CD /* FFBaseEmptyView.swift in Sources */,
 				76C4ACCB1FF21A5A0029157D /* FFLoadXibProtocol.swift in Sources */,
 				76C4ACD71FF21A5A0029157D /* UIColor+extension.swift in Sources */,

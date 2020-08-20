@@ -33,7 +33,7 @@ public final class FFAppDevicePulgin: NSObject {
     //状态栏高度
     static public let statusBarHeight: CGFloat = {
         if UIScreen.main.bounds.size.height >= 800 {
-            return 32
+            return 34
         } else {
             return 20
         }
