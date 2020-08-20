@@ -27,7 +27,7 @@ public extension UIScrollView {
     }
   }
   
-  public var emptyView: UIView? {
+   var emptyView: UIView? {
     get {
       return objc_getAssociatedObject(self,EmptyDataKey.emptyViewKey) as? UIView
     }

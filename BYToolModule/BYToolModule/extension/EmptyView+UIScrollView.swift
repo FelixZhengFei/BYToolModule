@@ -9,9 +9,9 @@ import UIKit
 
 
 public extension UIScrollView {
-
-  public func setEmpty(view: FFBaseEmptyView?) {
-    emptyView = view
-  }
-
+    
+    func setEmpty(view: FFBaseEmptyView?) {
+        emptyView = view
+    }
+    
 }

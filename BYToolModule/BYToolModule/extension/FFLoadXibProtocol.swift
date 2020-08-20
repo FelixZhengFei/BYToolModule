@@ -8,11 +8,11 @@
 
 /*
  功能：
-    专门用来加载xib 的通用协议
+ 专门用来加载xib 的通用协议
  
  使用：
-    遵守 ‘FFLoadXibProtocol’协议
-    如：HomePageInLoginBottomView.ff_LoadXib()
+ 遵守 ‘FFLoadXibProtocol’协议
+ 如：HomePageInLoginBottomView.ff_LoadXib()
  
  
  */
@@ -27,7 +27,7 @@ public protocol FFLoadXibProtocol {
 public extension FFLoadXibProtocol where Self: UIView {
     ///提供加载XIB方法
     /**加载XIB方法*/
-   public static func ff_LoadXib(xibStr: String? = nil) -> Self {
+    func ff_LoadXib(xibStr: String? = nil) -> Self {
         return Bundle.main.loadNibNamed(xibStr ?? "\(self)", owner: nil, options: nil)?.last as! Self
     }
 }

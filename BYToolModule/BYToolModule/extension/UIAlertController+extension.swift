@@ -63,7 +63,7 @@ extension UIAlertController {
             let messageParentView = self.getParentViewOfTitleAndMessageFromView(view: self.view)
             if (messageParentView != nil) && (messageParentView?.subviews.count)! > 1 {
                 let messageLb = messageParentView?.subviews[1] as? UILabel
-                messageLb?.textAlignment = textAlignment
+                messageLb?.textAlignment = newValue
             }
         }
         get {
